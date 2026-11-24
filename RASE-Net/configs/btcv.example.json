@@ -1,0 +1,58 @@
+{
+  "sacf": {
+    "data_dir": "data/BTCV",
+    "split_json": "split.json",
+    "image_size": 512,
+    "sam_checkpoint": "checkpoints/IMISNet-B.pth",
+    "imis_ckpt": "checkpoints/trc_base.pth",
+    "epochs": 20,
+    "batch_size": 8,
+    "work_dir": "outputs/sacf"
+  },
+  "refiner": {
+    "data_dir": "data/BTCV",
+    "split_json": "split.json",
+    "image_size": 512,
+    "sam_checkpoint": "checkpoints/IMISNet-B.pth",
+    "imis_ckpt": "checkpoints/trc_base.pth",
+    "epochs": 10,
+    "batch_size": 4,
+    "sacf_ckpt": "outputs/sacf/sacf_best.pth",
+    "work_dir": "outputs/refiner"
+  },
+  "bank": {
+    "data_dir": "data/BTCV",
+    "split_json": "split.json",
+    "image_size": 512,
+    "sam_checkpoint": "checkpoints/IMISNet-B.pth",
+    "imis_ckpt": "checkpoints/trc_base.pth",
+    "out_dir": "outputs/bank"
+  },
+  "cache": {
+    "data_dir": "data/BTCV",
+    "split_json": "split.json",
+    "image_size": 512,
+    "sam_checkpoint": "checkpoints/IMISNet-B.pth",
+    "imis_ckpt": "checkpoints/trc_base.pth",
+    "sacf_ckpt": "outputs/sacf/sacf_best.pth",
+    "refiner_ckpt": "outputs/refiner/refiner_best_field.pth",
+    "out_dir": "outputs/cache"
+  },
+  "egrc": {
+    "data_dir": "data/BTCV",
+    "split_json": "split.json",
+    "image_size": 512,
+    "sam_checkpoint": "checkpoints/IMISNet-B.pth",
+    "imis_ckpt": "checkpoints/trc_base.pth",
+    "epochs": 12,
+    "batch": 12,
+    "K": 4,
+    "lr": 0.0003,
+    "wd": 0.0001,
+    "res_l2": 0.001,
+    "fewshot": true,
+    "cache_dir": "outputs/cache",
+    "bank_path": "outputs/bank/exemplar_bank.pt",
+    "out_dir": "outputs/egrc"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "74 Python files parse successfully",
+    "4 release checks pass: CLI, syntax, source hashes, excluded binary artifacts",
+    "Strict EGRC and SACF state-dictionary compatibility against retained reference",
+    "Actual CPU 512 EGRC forward, finite outputs, initial zero residual",
+    "Bitwise EGRC nonzero-residual forward equality against reference",
+    "Zero-exemplar gate gives zero correction"
+  ],
+  "runtime": "Python 3.11; PyTorch 2.5.1+cu124",
+  "scope": "Organization and smoke validation; no new training or complete dataset evaluation was run"
+}

@@ -1,0 +1,408 @@
+[
+  {
+    "file": "rase/_historical/model.py",
+    "source": "original/model.py",
+    "original_sha256": "1b1aaa4e28549d9dd824b6b2f7e508ac003cd3aef8f07f4509da5a009c30d61a",
+    "packaged_sha256": "863c3681b9e6493b5af54fc84ee6fcc93a81a6479bc5a7a21792e3e9a7932c22",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/data_loader.py",
+    "source": "original/data_loader.py",
+    "original_sha256": "81559de0151ec046b656cbcc8d68f67bf3c113c9e496f1ad72e1fbe737fa5893",
+    "packaged_sha256": "8233ee2ff83decc15bbe0e870ba404703292f358d93ee6ce80518be72787bfae",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/utils.py",
+    "source": "original/utils.py",
+    "original_sha256": "d69f6deea71b50a990e8b40c8568bc02285095a080e626f0bd497dd4c1c5ca3f",
+    "packaged_sha256": "b14dbf1f5117c2846da0d17876a43c45cd1455cb2b81e06d75d70d747d67f044",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/train.py",
+    "source": "original/train.py",
+    "original_sha256": "ba31393eb730575ae239b53d9a9ed0c23555af0d4bd77b50ff4ce3d689cfbf59",
+    "packaged_sha256": "d0e98315bf710fd4360af15928fde38e6c399ec6c8e69be259fcbdaa2ac0216b",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/train_trc.py",
+    "source": "original/train_trc.py",
+    "original_sha256": "24d94680f507079b1cab8eceb6600c1b0a7fbe23d7ba5f54951b1b04f605d9f7",
+    "packaged_sha256": "48a3e9a4453694778c542d90c1e133f346f61e5e3d6cf023fba4e4a4867e38be",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/train_egrc.py",
+    "source": "original/train_egrc.py",
+    "original_sha256": "500982484de84eda2f160721d9396d1a95f6cfa854bad4448be133ba2c24c95e",
+    "packaged_sha256": "cea0d698ce9beb9e666661c8fff40bd94a59d363b78d9b27ad48c40335b9da7d",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/build_bank.py",
+    "source": "original/build_bank.py",
+    "original_sha256": "b67da20c28805b6efe8bfde5d9710cec23b58a32ddb7d7f1e6665984e77a4973",
+    "packaged_sha256": "560bdda719d7fdeb64fbe0e763b6a60ba1df64e28d597e04b552ff6e5a49d942",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/precompute_cache.py",
+    "source": "original/precompute_cache.py",
+    "original_sha256": "916a811eeb676b0800e9a6806533c506911e0bcb736b8a0e875155832d1c5f84",
+    "packaged_sha256": "aa174cd940e70ff5609d351b34bf003301a1b14eaefdf092f1376c3501ea75ae",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/eval_egrc_compare.py",
+    "source": "original/eval_egrc_compare.py",
+    "original_sha256": "466367e643a471ed0609c51c08282de8b2c1f86faf023ca0c7db5274e7a1b6d4",
+    "packaged_sha256": "8f0f0f4aa8ad39ab3fd09f88770ead18fffc9de765a0c6af13761af003f16a0d",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/egrc.py",
+    "source": "original/egrc.py",
+    "original_sha256": "b05cf370fd1d220521ac217bb1265685877dea00d131a9a3663f09213011d020",
+    "packaged_sha256": "6c1b81dc2ef9b98ecfb635c9ffd78646bdb47279c7fd9b7a805f1aca7ac45cf8",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/preprocess_btcv_full.py",
+    "source": "original/preprocess_btcv_full.py",
+    "original_sha256": "0c9578b2892df1fd3aa93dfccf9d27d22a7148940014a325c980f3ef485fbb28",
+    "packaged_sha256": "3ca7a9be1935efee61637039384bcf37f4bc893f46f97c60317bc815a1114deb",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/preprocess_amos_mri.py",
+    "source": "original/preprocess_amos_mri.py",
+    "original_sha256": "4ca1b060df5641e6ada623d3459db228975e4281404aa63b21a0a0af5dc125eb",
+    "packaged_sha256": "3671d2a01755d6d505925922bd92cf7066f93a6cdc1f01f20525c1a953986778",
+    "changes": "portable path substitutions and newline normalization; remove remaining machine-specific example path"
+  },
+  {
+    "file": "rase/_historical/segment_anything/build_sam.py",
+    "source": "original/segment_anything/build_sam.py",
+    "original_sha256": "1690a80b8a7c7e0ae6ce9580f68e80d06ec8d8ded2e49d1070478526eae430b1",
+    "packaged_sha256": "925598939bb690229179cea8e69bcd75f07cc6ddddde5447bf7b813828e7709c",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/predictor.py",
+    "source": "original/segment_anything/predictor.py",
+    "original_sha256": "755214ab7f1408d42e492e8eb7d2966715ed4158a8d7fc703511961c83f74c9c",
+    "packaged_sha256": "8528dd393770a76560d7d7fec345153682e7c0aea42d8d16110bb278b71f538c",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/__init__.py",
+    "source": "original/segment_anything/__init__.py",
+    "original_sha256": "b3268d4168c68bf31d813950a0817e7112db0101e9b5c0d2a4cf9622cb5917d7",
+    "packaged_sha256": "0bda52d63f34469d6ed897cb010840112a80e616c0b86bfa41f4c9c0b89d9f0d",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/modeling/common.py",
+    "source": "original/segment_anything/modeling/common.py",
+    "original_sha256": "93f25ae818de53cd0db8bc721d5cdb0b72b9e0ae24592fd25a79da58b7d7720b",
+    "packaged_sha256": "a1af44e8cbab343a2a9f797794f942eff206b00d2fdb908028e6800e6b346afe",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/modeling/image_encoder.py",
+    "source": "original/segment_anything/modeling/image_encoder.py",
+    "original_sha256": "bab5e95aad433f061521d27a80b017deaafae5a5479254ad0e8ebb9df6835bed",
+    "packaged_sha256": "12f6c160806b7ed421231266ca452bb10eebfaaf150c948c37b1d6113a64d8af",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/modeling/mask_decoder.py",
+    "source": "original/segment_anything/modeling/mask_decoder.py",
+    "original_sha256": "8d617b713fa4c3bd47b681ddf4be8f33734db34c612498ef05711275afde036e",
+    "packaged_sha256": "39b9ef5332111d4d848f615e468aecadd6a1776bb7c0a819c45f738dddade1d7",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/modeling/prompt_encoder.py",
+    "source": "original/segment_anything/modeling/prompt_encoder.py",
+    "original_sha256": "2ccb3ca5b23836beab03112868a0ec424abfcfa1c32f76e44c917d62888dee3b",
+    "packaged_sha256": "18ee380907e84fd856eb6c62d695b210e6b88f4f5cb183f5e4a044720214ff70",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/modeling/sam.py",
+    "source": "original/segment_anything/modeling/sam.py",
+    "original_sha256": "6e5dbb52abc8fa9f97200abf54230def03c0c186664be834ec28f11fbdb4c1f5",
+    "packaged_sha256": "18e807880c0a85dba2b42eb445b8e9f7a5dbd3f325195c932ff7ae4007d98512",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/modeling/sam_model.py",
+    "source": "original/segment_anything/modeling/sam_model.py",
+    "original_sha256": "6d43e4cb64f6e6d1fd3fe0c7cc53ef92a94d2c26bee3288bf22f1d156d17db64",
+    "packaged_sha256": "6b9280ca5f3fc9efff40e2e6a48555302ea86e0bf395cbf756db836df0403086",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/modeling/transformer.py",
+    "source": "original/segment_anything/modeling/transformer.py",
+    "original_sha256": "f20c92759a8da1cd791564909dd2d827a079d400eb56c70d9fe7bdea878058f0",
+    "packaged_sha256": "f134a3af9d87fa2288adb612d89ecd6e97bc16fc846f86d1560f502bd3ed7420",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/modeling/__init__.py",
+    "source": "original/segment_anything/modeling/__init__.py",
+    "original_sha256": "27cac873f147f45194bcbfc193e5aa042c2e263b782895efb529014595440948",
+    "packaged_sha256": "e80e9bb21b00224e76c4b27d28b8d3467c705ae3e78e75825f0a1d9a0b97253b",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/utils/amg.py",
+    "source": "original/segment_anything/utils/amg.py",
+    "original_sha256": "5c10f8dd63facb642ff090f61426b35b3c6c3a07e72839595cb04d74828b1d39",
+    "packaged_sha256": "7f7d4e51cd8ad9bcb3ba4489ad8a019d8a7a12f9432980891077bcf8692139b9",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/utils/onnx.py",
+    "source": "original/segment_anything/utils/onnx.py",
+    "original_sha256": "b4410ac1dc9a7bb3a09827520fa08454f9b397608775e2fe4ebfb7c8dbb02666",
+    "packaged_sha256": "c43f17e87ea8822af515158d23a86df53e49f67d13fad530eaec30b80f0360ea",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/utils/transforms.py",
+    "source": "original/segment_anything/utils/transforms.py",
+    "original_sha256": "2a43c4bc4f35ac114ab1d7228b4003536b5dbf82ef8da18019ca3c1e5815ea25",
+    "packaged_sha256": "c3ff1d1430a99a0cacff0681fabf1a3448ff457572af646b4995e3cdd9ae3719",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/segment_anything/utils/__init__.py",
+    "source": "original/segment_anything/utils/__init__.py",
+    "original_sha256": "34bd8069c54764e7b8d73a78905dbe6467140a2f73170875128f6ca4d8cdd0aa",
+    "packaged_sha256": "9f2c336d52111ef51bae5b4959d8941968e9e26638c681de5388c58d3080624d",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/dataloaders/data_utils.py",
+    "source": "original/dataloaders/data_utils.py",
+    "original_sha256": "723c58a7a15daeff414ff0fc3febaf5eb93b5701f8d55b960650f264dd1d742d",
+    "packaged_sha256": "8dd462e86ae869d30f300be71a2e050755fd68574f6a9de962cbe18ce2bb1493",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/sacf_dev/sacf/anatomy_knowledge.py",
+    "source": "original/sacf_dev/sacf/anatomy_knowledge.py",
+    "original_sha256": "3d7a147b96f150ffb98b5f1ef1246e9b1834c9ee35e13b97156c72266f096c7b",
+    "packaged_sha256": "607e4ced7b38e1178f9e715ddb891b50a95685bc7b00db47b7b63a23323888ca",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/sacf_dev/sacf/corruptions.py",
+    "source": "original/sacf_dev/sacf/corruptions.py",
+    "original_sha256": "ebe20d3c9ae607efeb441dc3f1826c6562e18b96eb74cf1bc40287b70193614d",
+    "packaged_sha256": "6026e92bcd8a2b9518b1c52d4bb9482d0fdb2202c03c1f4a28efb936107fea0c",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/sacf_dev/sacf/dataset.py",
+    "source": "original/sacf_dev/sacf/dataset.py",
+    "original_sha256": "4c76f1422820c9b0a2d2a4a0323d23ac6c2319bc3074a09ace67cb7df5bdca73",
+    "packaged_sha256": "8b2f9c8488b1a12e64261e3cd6a34afccddae7319aa8f60d0ae889083e5fd84c",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/sacf_dev/sacf/losses.py",
+    "source": "original/sacf_dev/sacf/losses.py",
+    "original_sha256": "7fdaddcc3da5575a2d030a5356e9f8d37a489ec465cb55a86bbc13c4501c7576",
+    "packaged_sha256": "66598bf78e30e5328d61471b67adf52bc31948d15c51834acff5632f91b9038a",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/sacf_dev/sacf/model.py",
+    "source": "original/sacf_dev/sacf/model.py",
+    "original_sha256": "49f481020dc51ca455b5e7c2c5b79a92a0c427cc714791ce845699b940e6a4bc",
+    "packaged_sha256": "216541fd6ac24d7939f463296ac62feeff311a4f28eec17e9d932bb8a0aacefc",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/sacf_dev/sacf/__init__.py",
+    "source": "original/sacf_dev/sacf/__init__.py",
+    "original_sha256": "13afea55756394a94eb3ec52cf7c4a5c7ff60a16647724a1e3fa22dbf11b35d0",
+    "packaged_sha256": "65ea039954aa4149a801f4dfabd9a75a7d7af273c2fe8ecdf7c67c8786c866a9",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/sacf_dev/train_sacf.py",
+    "source": "original/sacf_dev/train_sacf.py",
+    "original_sha256": "56c4b2aace632d37bb78cf5fac213eee4b196c4e4b10bc09ca77884c7c2b3f33",
+    "packaged_sha256": "ac3da6539ca7c884caf141e81f5f9fe577af18be50e72a2fec8c72f6464f31a2",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/sacf_dev/train_refiner.py",
+    "source": "original/sacf_dev/train_refiner.py",
+    "original_sha256": "01b6e38a02f144782ee2a9dc31fe978212e24515250c0e88e7aa9595e8a1f9f2",
+    "packaged_sha256": "45746e6e152552e36194342fc200a987ae3fd76df80e077f3367f5111f85de3a",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/sacf_dev/eval_sacf.py",
+    "source": "original/sacf_dev/eval_sacf.py",
+    "original_sha256": "c364839df2e4ec5158ae689623a12609dbcbeaec3a9a68c5aa07d3e7a5714bf5",
+    "packaged_sha256": "800f1eac2763453c2f01465eeddc90aa5986102497155cfe038f787d9e2dd84c",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/sacf_dev/eval_refiner.py",
+    "source": "original/sacf_dev/eval_refiner.py",
+    "original_sha256": "1b1a7138d8bb26d8ac39dab04febd225d98f8478c894ac1b83a8648326d8209b",
+    "packaged_sha256": "3b8609ba63b1790a095b08d1a1b5e124536ae8bacf2ea04c764f698fd24804ed",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/_historical/scar/lib.py",
+    "source": "original/scar/lib.py",
+    "original_sha256": "70b5fe717c3bbf06d637a22a2e1a7277532ef877a8ff90c65cef6c1f0b13f2d4",
+    "packaged_sha256": "dc9344c4b8361b024d8c7e4ea72dd70837eda2a0a5088a7702c658046fa47f3d",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/models/egrc.py",
+    "source": "matched/reference/egrc.py",
+    "original_sha256": "a001a491761a30b19da4d0031477c6499eb097d3c3454dfee265edf4230af120",
+    "packaged_sha256": "42a9098feacff8beef2346a53ed555cafc7423d92053ab72f543ff583969eadc",
+    "changes": "newline normalization"
+  },
+  {
+    "file": "rase/models/scar.py",
+    "source": "matched/reference/sacf_model.py",
+    "original_sha256": "49f481020dc51ca455b5e7c2c5b79a92a0c427cc714791ce845699b940e6a4bc",
+    "packaged_sha256": "216541fd6ac24d7939f463296ac62feeff311a4f28eec17e9d932bb8a0aacefc",
+    "changes": "newline normalization"
+  },
+  {
+    "file": "rase/losses/scar.py",
+    "source": "matched/reference/sacf_losses.py",
+    "original_sha256": "7fdaddcc3da5575a2d030a5356e9f8d37a489ec465cb55a86bbc13c4501c7576",
+    "packaged_sha256": "66598bf78e30e5328d61471b67adf52bc31948d15c51834acff5632f91b9038a",
+    "changes": "newline normalization"
+  },
+  {
+    "file": "rase/evaluation/legacy.py",
+    "source": "matched/legacy_metrics.py",
+    "original_sha256": "c3586aa532af12d44ef1db34904232ef332590607faf339836aa500a9be93745",
+    "packaged_sha256": "c3586aa532af12d44ef1db34904232ef332590607faf339836aa500a9be93745",
+    "changes": "newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/common.py",
+    "source": "matched/common.py",
+    "original_sha256": "7b240e9b6eda2201f570bc4a599e4c5b3e6dc370513e869a97e1390b7ee9d0fc",
+    "packaged_sha256": "7b240e9b6eda2201f570bc4a599e4c5b3e6dc370513e869a97e1390b7ee9d0fc",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/engine.py",
+    "source": "matched/engine.py",
+    "original_sha256": "6f2b243251c1c5439fdc589be08df2814486f39fcb8baf931ae98e30869b87ad",
+    "packaged_sha256": "6f2b243251c1c5439fdc589be08df2814486f39fcb8baf931ae98e30869b87ad",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/dataflow.py",
+    "source": "matched/dataflow.py",
+    "original_sha256": "ed79cdfb7263e8b9a09a28caa5442edee80926e63c6fc52ab528ec1d106008d1",
+    "packaged_sha256": "ed79cdfb7263e8b9a09a28caa5442edee80926e63c6fc52ab528ec1d106008d1",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/variants.py",
+    "source": "matched/variants.py",
+    "original_sha256": "a90ab239c8e02ab20d815be450ed685fa8b0b958f1ce223327e2ea65cb1df4ce",
+    "packaged_sha256": "1ed4eb2133b79f083148b2643d8d78417f2de5cc6c9346b0bef8f43211facfee",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/reference/anatomy.py",
+    "source": "matched/reference/anatomy.py",
+    "original_sha256": "3d7a147b96f150ffb98b5f1ef1246e9b1834c9ee35e13b97156c72266f096c7b",
+    "packaged_sha256": "607e4ced7b38e1178f9e715ddb891b50a95685bc7b00db47b7b63a23323888ca",
+    "changes": "newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/reference/corruptions.py",
+    "source": "matched/reference/corruptions.py",
+    "original_sha256": "ebe20d3c9ae607efeb441dc3f1826c6562e18b96eb74cf1bc40287b70193614d",
+    "packaged_sha256": "6026e92bcd8a2b9518b1c52d4bb9482d0fdb2202c03c1f4a28efb936107fea0c",
+    "changes": "newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/reference/egrc.py",
+    "source": "matched/reference/egrc.py",
+    "original_sha256": "a001a491761a30b19da4d0031477c6499eb097d3c3454dfee265edf4230af120",
+    "packaged_sha256": "42a9098feacff8beef2346a53ed555cafc7423d92053ab72f543ff583969eadc",
+    "changes": "newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/reference/legacy_eval_256.py",
+    "source": "matched/reference/legacy_eval_256.py",
+    "original_sha256": "14901d5afc955f3c8f43f6e7a1faf96aa499a1fb2380cc229feada503dc7c394",
+    "packaged_sha256": "27faeef063e5995170aaeaba945465340c52888e176d5c9c75fc317fe4407f32",
+    "changes": "newline normalization; remove remaining machine-specific example path"
+  },
+  {
+    "file": "experiments/internal_reference/reference/sacf_losses.py",
+    "source": "matched/reference/sacf_losses.py",
+    "original_sha256": "7fdaddcc3da5575a2d030a5356e9f8d37a489ec465cb55a86bbc13c4501c7576",
+    "packaged_sha256": "66598bf78e30e5328d61471b67adf52bc31948d15c51834acff5632f91b9038a",
+    "changes": "newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/reference/sacf_model.py",
+    "source": "matched/reference/sacf_model.py",
+    "original_sha256": "49f481020dc51ca455b5e7c2c5b79a92a0c427cc714791ce845699b940e6a4bc",
+    "packaged_sha256": "216541fd6ac24d7939f463296ac62feeff311a4f28eec17e9d932bb8a0aacefc",
+    "changes": "newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/frozen_evaluation.py",
+    "source": "matched/frozen_evaluation.py",
+    "original_sha256": "c9d619fb3525bae63e8e8a57f89b9c1a6912223f4fb2bd4f9674a5186c722f40",
+    "packaged_sha256": "2d528b70e98b4ac64970ec3a4706646623e84c842463008a9c2b4b1c9077d32f",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/protocol_oracle.py",
+    "source": "matched/protocol_oracle.py",
+    "original_sha256": "753a996e9b28c62416b02a1154f340a6d16ae9753df5c6c6764acdd069f2c3c5",
+    "packaged_sha256": "753a996e9b28c62416b02a1154f340a6d16ae9753df5c6c6764acdd069f2c3c5",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/legacy_metrics.py",
+    "source": "matched/legacy_metrics.py",
+    "original_sha256": "c3586aa532af12d44ef1db34904232ef332590607faf339836aa500a9be93745",
+    "packaged_sha256": "c3586aa532af12d44ef1db34904232ef332590607faf339836aa500a9be93745",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "experiments/internal_reference/export_results.py",
+    "source": "matched/export_results.py",
+    "original_sha256": "6494c5be2816e383eb48e78d6ebae7294c0046bf9494f5d8ae43a2accddbfe5a",
+    "packaged_sha256": "08291c3a20143895176d1341716db28fc41c0a58e011ed91a5de9ffc28b775e2",
+    "changes": "portable path substitutions and newline normalization"
+  },
+  {
+    "file": "rase/trc/_common.py",
+    "source": "matched/common.py",
+    "original_sha256": "7b240e9b6eda2201f570bc4a599e4c5b3e6dc370513e869a97e1390b7ee9d0fc",
+    "packaged_sha256": "7b240e9b6eda2201f570bc4a599e4c5b3e6dc370513e869a97e1390b7ee9d0fc",
+    "changes": "portable path substitutions and newline normalization"
+  }
+]

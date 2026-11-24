@@ -73,7 +73,19 @@ Set data and checkpoint paths before executing. A full stage dependency graph an
 
 ## Data and release scope
 
-BTCV, AMOS MRI, and WORD data must be obtained under their respective terms. This repository includes neither patient data, experiment caches, nor trained weights. Dataset examples document the existing splits without regenerating them. Reorganized source and CPU checks do not constitute a new end-to-end training reproduction.
+The public datasets used in this study can be obtained from their original providers:
+
+| Dataset | Modality used in this study | Official access page |
+|---|---|---|
+| BTCV | CT | [Synapse challenge page](https://www.synapse.org/Synapse:syn3193805/wiki/89480) |
+| WORD | CT | [Official WORD project](https://github.com/HiLab-git/WORD) |
+| AMOS | MRI subset | [Official AMOS challenge website](https://amos22.grand-challenge.org/Home/) |
+
+Follow the download instructions on the official pages and comply with each provider's license, data-use terms, and any registration or access requirements. The original medical images and annotations are distributed by the dataset providers and are not redistributed in this repository.
+
+Patient counts, expected file formats, and directory layouts are described in [Data preparation](docs/data.md). Use the original fixed patient-level partitions when reproducing an experiment. The current release documents partition sizes but does not include the case-level split lists or `split.json` files; prepare these from the original experiment records rather than generating a new random split.
+
+This repository includes neither experiment caches nor trained weights. Reorganized source and CPU checks do not constitute a new end-to-end training reproduction.
 
 ## Acknowledgements and licensing
 
